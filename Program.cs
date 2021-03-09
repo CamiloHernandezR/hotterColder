@@ -8,7 +8,7 @@ namespace hotterColder
         {
             Random ran = new Random();            
             BackControl mistery = new BackControl(ran.Next(0, 101));
-            Console.WriteLine("random number has been chosen {0}", mistery.random);
+            Console.WriteLine("random number has been chosen");
             Console.WriteLine("Make a guess");            
             bool win = mistery.FirstGuess(mistery.OnlyNumbers());
             while (!win)
